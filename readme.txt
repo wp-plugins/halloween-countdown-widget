@@ -5,7 +5,7 @@ Donate Link: http://christmaswebmaster.com/vampire-halloween-countdown-wordpress
 Tags: halloween countdown, halloween, holiday, vampire, widget-only
 Requires at least: 3.0
 Tested up to: 3.4.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,7 +17,7 @@ Displays a cute vampire Halloween countdown in your sidebar.
 
 The Halloween Countdown Widget displays a cute vampire countdown to Halloween in your sidebar. 
 
-
+ More information at [ChristmasWebmaster.com](http://christmaswebmaster.com/).
 
 == Installation ==
 
@@ -52,10 +52,17 @@ Of course he does! We call him Vampy.
 
 
 == Changelog ==
-
-Version 1.0 Released 10/05/2012
+=Version 1.1=
+Released 10/24/2012
+=Version 1.0=
+ Released 10/05/2012
 
 
 == Upgrade Notice ==
+= 1.1 =
+Updated countdown to fix date error.
+updated countdown to restart the countdown the day after halloween.
+updated countdown to display Happy Halloween!! on event daye.
 
-Version 1.0 Released 10/05/2012
+= 1.0 =
+First Official Release

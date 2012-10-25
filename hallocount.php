@@ -14,7 +14,7 @@ any later version.
 
 Halloween Countdown Widget is distributed in the hope that it will be useful, 
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
@@ -66,20 +66,38 @@ class hallocount extends WP_Widget
      text-align:center;\"><div style=\"font-weight:normal;
      font-size:15px; 
      padding-right: 0px; 
-     padding-top:88px; 
-     text-align:center;
+     padding-top:95px; 
+     text-align:center; line-height:105%;
      font-family: comic sans ms;
      color: #FFFF00;\"><script language=\"javascript\" type=\"text/javascript\">
-        today = new Date();
-        BigDay = new Date(\"October 31, 2012\")
-        msPerDay = 24 * 60 * 60 * 1000;
-        timeLeft = (BigDay.getTime() - today.getTime());
-        e_daysLeft = timeLeft / msPerDay;
-        daysLeft = Math.floor(e_daysLeft);
-        e_hrsLeft = (e_daysLeft - daysLeft) * 24;
-        hrsLeft = Math.floor(e_hrsLeft);
-        minsLeft = Math.floor((e_hrsLeft - hrsLeft) * 60);
-        document.write(\"\" + daysLeft + \" days<BR>til Halloween!\");
+    today = new Date();
+    thismon = today.getMonth();
+    thisday = today.getDate();
+    thisyr = today.getFullYear();
+if (thismon == 10 && thisday > 1)
+ {
+ thisyr = ++thisyr;
+ BigDay = new Date(\"November 1, \"+thisyr);
+ }
+else
+ {
+ BigDay = new Date(\"November 1, \"+thisyr);
+ }
+    msPerDay = 24 * 60 * 60 * 1000;
+    timeLeft = (BigDay.getTime() - today.getTime());
+    e_daysLeft = timeLeft / msPerDay;
+    daysLeft = Math.floor(e_daysLeft);
+    e_hrsLeft = (e_daysLeft - daysLeft) * 24;
+    hrsLeft = Math.floor(e_hrsLeft);
+    minsLeft = Math.floor((e_hrsLeft - hrsLeft) * 60);
+if (daysLeft <= 0 )
+{ 
+document.write(\"Happy Halloween!!\")
+}
+else 
+{ 
+document.write(\"\" + daysLeft + \" days<BR>til Halloween!\"); 
+}
     </script></div></div>";
     echo $after_widget;
   }
