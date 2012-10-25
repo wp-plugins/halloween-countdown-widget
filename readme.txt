@@ -67,6 +67,7 @@ Yes. You can edit the hallocount.php file CSS to suit your needs, find this line
 
 
 == Upgrade Notice ==
+
 = 1.1 =
 
 *Updated countdown to fix date error.
