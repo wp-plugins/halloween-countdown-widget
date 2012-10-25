@@ -2,7 +2,7 @@
 
 Contributors: monkeymays
 Donate Link: http://christmaswebmaster.com/vampire-halloween-countdown-wordpress-plugin
-Tags: halloween countdown, halloween, holiday, vampire, widget-only
+Tags: halloween countdown, halloween, holiday, vampire, widget-only, widget
 Requires at least: 3.0
 Tested up to: 3.4.1
 Stable tag: 1.1
