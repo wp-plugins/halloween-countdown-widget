@@ -52,17 +52,22 @@ Of course he does! We call him Vampy.
 
 
 == Changelog ==
-=Version 1.1=
-Released 10/24/2012
-=Version 1.0=
- Released 10/05/2012
+
+= Version 1.1 =
+
+*Released 10/24/2012
+
+= Version 1.0 =
+
+* Released 10/05/2012
 
 
 == Upgrade Notice ==
 = 1.1 =
-Updated countdown to fix date error.
-updated countdown to restart the countdown the day after halloween.
-updated countdown to display Happy Halloween!! on event daye.
+
+*Updated countdown to fix date error.
+*updated countdown to restart the countdown the day after halloween.
+*updated countdown to display Happy Halloween!! on event daye.
 
 = 1.0 =
-First Official Release
+ *First Official Release
