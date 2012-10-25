@@ -38,6 +38,10 @@ The Halloween Countdown Widget displays a cute vampire countdown to Halloween in
 
 Of course he does! We call him Vampy.
 
+= Can I change the Countdown text color? =
+
+Yes. You can edit the hallocount.php file CSS to suit your needs, find this line: color: #FFFF00; and edit accordingly.
+
 
 
 
@@ -59,7 +63,7 @@ Of course he does! We call him Vampy.
 
 = Version 1.0 =
 
-* Released 10/05/2012
+*Released 10/05/2012
 
 
 == Upgrade Notice ==
@@ -70,4 +74,4 @@ Of course he does! We call him Vampy.
 *updated countdown to display Happy Halloween!! on event daye.
 
 = 1.0 =
- *First Official Release
+*First Official Release
