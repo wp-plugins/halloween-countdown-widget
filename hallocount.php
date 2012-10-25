@@ -4,7 +4,7 @@ Plugin URI: http://christmaswebmaster.com/vampire-halloween-countdown-wordpress-
 Description: Displays a cute Vampire countdown to Halloween in your sidebar.
 Author: Monica Mays
 Author URI: http://christmaswebmaster.com/
-Version: 1.0
+Version: 1.1
 
 
 Halloween Countdown Widget is free software: you can redistribute it and/or modify
