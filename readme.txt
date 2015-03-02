@@ -1,7 +1,7 @@
 === Halloween Countdown Widget ===
 
 Contributors: monkeymays
-Donate Link: http://christmaswebmaster.com/vampire-halloween-countdown-wordpress-plugin
+Donate Link: http://christmaswebmaster.com/vampire-halloween-countdown-wordpress-plugin/
 Tags: halloween countdown, halloween, holiday, vampire, widget-only, widget
 Requires at least: 3.0
 Tested up to: 3.4.1
